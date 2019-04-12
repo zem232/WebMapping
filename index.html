@@ -1,0 +1,96 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>BoomBox</title>
+  <meta name="description" content="The HTML5 Herald">
+  <meta name="author" content="SitePoint">
+
+  <link rel="stylesheet" href="css/styles.css">
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.53.1/mapbox-gl.css' rel='stylesheet' />
+
+</head>
+
+<body>
+
+  <div id='mapContainer'>
+    <div id='map' ></div>
+  </div>
+
+
+<h1>
+  {BOOM-BOX} ROOM
+</h1>
+
+<p>
+  Welcome. Click to enter:
+</p>
+
+<button id='boomRoom'>
+The Boom Room
+</button>
+
+<button id='boxRoom'>
+The Box Room
+</button>
+
+<button id='back'>
+Back
+</button>
+
+<div class='Mood'>
+  Select a mood
+  <select id='moods'>
+    <option value="blank"> </option>
+    <option value="eccentric">Eccentric</option>
+    <option value="funky">Funkynsmooth</option>
+    <option value="moody">Moody</option>
+    <option value="indie">Indie</option>
+    <option value="rebellious">Rebellious</option>
+    <option value="relaxed">Relaxed</option>
+  </select>
+</div>
+
+<br><br>
+<iframe class="Music" id="NegGem" src="https://as-embed-player.adultswim.com/singles/2018/?trackid=track-30" width="405" height="405" frameborder="0"></iframe>
+<iframe class="Music" id="KingKrule" src="https://open.spotify.com/embed/user/spotify/playlist/37i9dQZF1DWSLdxrRriLgz" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe class="Music" id="Duster" src="https://open.spotify.com/embed/artist/5AyEXCtu3xnnsTGCo4RVZh" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe class="Music" id="FieldMedic" src="https://open.spotify.com/embed/artist/4wMfqR1EZagrSlYndItxGQ" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe class="Music" id="GalcherLustworth" src="https://open.spotify.com/embed/album/29aw2NSP2k8HB3LUWok8tH" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+<iframe class="Music" id="SpiritBee" src="https://open.spotify.com/embed/album/5l93RkfOpA9Whuziy038gB" width="300" height="380" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+
+<div id="numBoxes">
+  <button id="boxSubmit">Box Me</button>
+  <input type="number" id="boxInput" name="boxInput" min="0" max="10">
+  <label for="boxInput"># Boxes (From 1-10)</label>
+</div>
+
+<button id='gobox'>
+Box Go
+</button>
+<br>
+<br>
+<br>
+<br>
+
+<div class='Boxes' id='Box1'></div>
+<div class='Boxes' id='Box2'></div>
+<div class='Boxes' id='Box3'></div>
+<div class='Boxes' id='Box4'></div>
+<div class='Boxes' id='Box5'></div>
+<div class='Boxes' id='Box6'></div>
+<div class='Boxes' id='Box7'></div>
+
+
+<script
+src="https://code.jquery.com/jquery-3.3.1.min.js"
+integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+crossorigin="anonymous"></script>
+<script src="js/pizzaData.js"></script>
+<script src="js/scripts.js"></script>
+
+</body>
+</html>
