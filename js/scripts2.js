@@ -9,6 +9,16 @@ center: [-73.950348,40.733210],
 zoom: 10
 });
 
+// create a popup for the marker
+var popup = new mapboxgl.Popup({ offset: 25 })
+.setText('This is arguably the best park in NYC.');
+
+// create a marker with a popup
+var marker = new mapboxgl.Marker()
+  .setLngLat([-73.943476,40.724326])
+  .setPopup(popup) // sets a popup on this marker
+  .addTo(map);
+
 map.addControl(new mapboxgl.NavigationControl());
 
 // Defining the variables
