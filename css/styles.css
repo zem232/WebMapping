@@ -1,78 +1,19 @@
 body {
   font-weight: 300;
   background: #FFFFFF;
-  background-image: url("https://media.giphy.com/media/yeHiKJ5995Pd6/giphy.gif");
+  background-image: url("https://a1-images.myspacecdn.com/images03/31/4641924eb60342afa6ca378d5ee10f30/300x300.jpg");
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
-
 #mapContainer {
-  height: 500px;
-  width: 500px;
-  background: 'pink';
-  margin: 0 auto;
+  height: 700px;
+  width: 700px;
+  background: lightgray;
+  margin: 10 auto;
 }
 
-#boomRoom {
-  padding: 5px;
-  font-weight: 700;
-}
-
-#boxRoom {
-  padding: 5px;
-  font-weight: 700;
-}
-
-#Box1 {
-  background: #ffd1dc;
+#welcome {
   height: 50px;
-  width: 50px;
-  left: 0;
-  top: 300px;
-  position: fixed;
-  margin-left: 10px;
-}
-
-#Box2 {
-  background: #ffd1dc;
-  height: 50px;
-  width: 50px;
-  right: 0;
-  top: 150px;
-  position: fixed;
-  margin-right: 100px;
-}
-
-#Box3 {
-  background: #ffd1dc;
-  height: 50px;
-  width: 50px;
-  left: 0;
-  top: 150px;
-  position: fixed;
-  margin-right: 100px;
-}
-
-#Box4 {
-  background: #ffd1dc;
-  height: 50px;
-  width: 50px;
-  right: 0;
-  top: 300px;
-  position: fixed;
-  margin-right: 100px;
-}
-
-#back {
-  position: relative;
-  padding: 5px;
-  background: #000000;
-  color: #FFFFFF;
-  }
-}
-
-#numBoxes {
-  border: 3px solid;
-  min-height: 100px;
-  padding: 20px;
+  width: 400px;
+  background: white;
 }
